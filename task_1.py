@@ -13,7 +13,8 @@ def main(input_coins: List[float]) -> Tuple[List[int], List[float]]:
     summ = sum(input_coins)
     banknotes = []
     coins = []
-    for banknote in [1000, 500, 100, 500, 1000]:
+    
+    for banknote in [1000, 500, 100, 500, 10]:
         while round(summ, 2) >= banknote:
             banknotes.append(banknote)
             summ -= banknote
