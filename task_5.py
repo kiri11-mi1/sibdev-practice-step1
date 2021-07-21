@@ -11,7 +11,5 @@ def main(n: int) -> List[int]:
         return [1]
     fibonachi_list = [1, 1]
     for i in range(2, n):
-        fibonachi_list.append(fibonachi_list[i-1]+ fibonachi_list[i-2])
+        fibonachi_list.append(fibonachi_list[i-1] + fibonachi_list[i-2])
     return fibonachi_list
-
-print(main(0))
