@@ -9,3 +9,12 @@ def main(matrix: List[List[int]]) -> List[List[int]]:
             if sum(matrix[j]) > sum(matrix[j+1]):
                 matrix[j], matrix[j+1] = matrix[j+1], matrix[j]
     return matrix[::-1]
+
+
+print(main(
+    [
+        [1, 2, 3, 4],
+        [-1, -3, 4, 6],
+        [4, 0, 0, 5]
+    ]
+))

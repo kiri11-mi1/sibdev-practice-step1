@@ -34,3 +34,6 @@ def main(figure: Literal['circle', 'rectangle', 'triangle'], sides: List[int]) -
         return rectangle_square(*sides)
     elif figure == 'triangle':
         return triangle_square(*sides)
+
+
+print(main("circle", [4]))

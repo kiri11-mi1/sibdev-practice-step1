@@ -10,3 +10,8 @@ def main(numbers_list: List[int]) -> int:
     if ind_min_elem > ind_max_elem:
         return sum(numbers_list[ind_max_elem+1:ind_min_elem])
     return sum(numbers_list[ind_min_elem+1:ind_max_elem])
+
+
+print(main(
+    [1, 12, -3, 5, 7, 8, 100]
+))

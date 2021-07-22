@@ -20,3 +20,6 @@ def main(input_string: str) -> int:
         return sum_first * sum_second
     elif '/' in input_string:
         return int(sum_first / sum_second)
+
+
+print(main("Саша+Маша"))
